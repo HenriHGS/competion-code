@@ -1,0 +1,1 @@
+{"name":"Local: g","url":"d:\\codefield\\c,c++\\vj\\icpc\\2018\\ccpc\\ccpc_final\\g.cpp","tests":[{"id":1633357263654,"input":"3\n2 3\n3 3\n4 4","output":"Case 1: 0\nCase 2: 1\nCase 3: 25"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codefield\\c,c++\\vj\\icpc\\2018\\ccpc\\ccpc_final\\g.cpp","group":"local","local":true}

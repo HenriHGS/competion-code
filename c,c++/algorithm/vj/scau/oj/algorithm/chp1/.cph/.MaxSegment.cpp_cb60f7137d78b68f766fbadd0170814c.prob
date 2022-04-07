@@ -1,0 +1,1 @@
+{"name":"Local: MaxSegment","url":"d:\\codefield\\c,c++\\vj\\scau\\oj\\algorithm\\chp1\\MaxSegment.cpp","tests":[{"id":1632127255189,"input":"10\n1 6 2 1 -2 3 5 2 -4 3","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codefield\\c,c++\\vj\\scau\\oj\\algorithm\\chp1\\MaxSegment.cpp","group":"local","local":true}

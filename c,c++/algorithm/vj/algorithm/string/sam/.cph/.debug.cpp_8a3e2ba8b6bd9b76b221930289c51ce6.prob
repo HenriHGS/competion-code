@@ -1,0 +1,1 @@
+{"name":"Local: debug","url":"d:\\codefield\\c,c++\\algorithm\\vj\\algorithm\\string\\sam\\debug.cpp","tests":[{"id":1636775727157,"input":"10\n()()()()()","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codefield\\c,c++\\algorithm\\vj\\algorithm\\string\\sam\\debug.cpp","group":"local","local":true}

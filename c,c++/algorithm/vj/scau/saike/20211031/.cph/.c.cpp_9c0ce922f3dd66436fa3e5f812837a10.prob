@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"d:\\codefield\\c,c++\\algorithm\\vj\\scau\\saike\\20211031\\c.cpp","tests":[{"id":1635643831957,"input":"4\n1 1 1 1","output":"1"},{"id":1635643835998,"input":"3\n3 2 1","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codefield\\c,c++\\algorithm\\vj\\scau\\saike\\20211031\\c.cpp","group":"local","local":true}

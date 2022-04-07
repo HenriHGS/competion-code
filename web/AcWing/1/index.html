@@ -1,0 +1,69 @@
+<html lang='zh-CN'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="搜索引擎中显示在下面的文字">
+    <meta name="keywords" content="搜索的关键字0,搜索的关键字1,搜索的关键字2,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/AcWing/1/images/logn.webp">
+    <!-- 这里的含义是为网页设置一个标签 -->
+    <title>web the first</title>
+</head>
+
+<body>
+    <!-- 这是标题 -->
+    <h1>suprise mother furker </h1>
+    <h2>suprise mother furker </h2>
+    <h3>suprise mother furker </h3>
+    <h4>suprise mother furker </h4>
+    <h5>suprise mother furker </h5>
+    <h6>suprise mother furker </h6>
+    <hr>
+
+    <!-- p 一段 ,空格回车会过滤掉-->
+    <p>
+        <mark>Chung Myung</mark>, The 13th Disciple of the Mount Hua Sect, <br>
+        One of the 3 Great Swordsmen, Plum Blossom Sword Saint, <br>
+        defeated Chun Ma, who has brought destruction and disarray <br>
+        onto the world. After the battle, he breathes his <br>
+        last breath on top of the headquarter mountain of the Heavenly <br>
+        Demon Sect. He is reborn after 100 years in the <br>
+        body of a child. ……What? The Mount Hua Sect has fallen? What kind of nonsense is that!?
+    </p>
+    <hr>
+    <!-- <br> p内换行 -->
+    <!-- <&nbsp> 空格 -->
+    <!-- <hr> 水平线 -->
+
+    <!-- 不会过滤换行，大于号gt，小于号lt -->
+    <pre style="font-size: 30px;">
+    class Solution {
+        public:
+            vector<int> twoSum(vector<int>& nums, int target) {
+                vector<int> ans;
+                map<int,int> ma;
+                int pos = 0;
+                for(auto x: nums){
+                    int y = target - x;
+                    if(ma.count(y)) {
+                        ans.push_back(ma[y]);
+                        ans.push_back(pos);
+                        break;
+                    }
+                    ma[x] = pos ++ ;
+                }
+                return ans;
+            }
+        };
+    </pre>
+
+    <img width="600" src="https://www.asurascans.com/wp-content/uploads/2021/03/3.gif" alt="剑尊归来">
+    <img width="600" src="https://www.asurascans.com/wp-content/uploads/2021/03/3.gif" alt="剑尊归来">
+    <img width="700" src="https://www.asurascans.com/wp-content/uploads/2021/03/3.gif" alt="剑尊归来">
+    <!-- span 行内元素，i是斜体，b是加粗，del删除线，ins下划线，td表格里的数据单元格，
+        a是超链接
+        image,audios,video
+    -->
+</body>
+
+</html>
